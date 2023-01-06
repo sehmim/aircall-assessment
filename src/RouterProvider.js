@@ -1,12 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import React from 'react';
 import Layout from "./Layout/Layout";
+import { Inbox } from "./components/Inbox";
 
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: (<Layout>Inbox</Layout>),
+        element: (<Layout><Inbox /></Layout>),
     },
     {
         path: "/all-calls",
@@ -35,5 +36,9 @@ export const router = createBrowserRouter([
     {
         path: "/circle",
         element: (<Layout>circle</Layout>),
+    },
+    {
+        path: "/call/:id",
+        element: (<Layout>DETAILS</Layout>),
     },
   ]);

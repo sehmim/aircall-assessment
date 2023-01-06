@@ -20,7 +20,7 @@ const TopNavigation = () => {
           <Link to="/all-calls">All calls</Link>
         </button>
         <button>
-          <Link to="/settings">All calls</Link>
+          <Link to="/settings">settings</Link>
         </button>
       </div>
     )

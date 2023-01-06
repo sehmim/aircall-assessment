@@ -1,0 +1,52 @@
+.card-wrapper {
+    background-color: white;
+    padding: 20px;
+    margin: 5px 20px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.05);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dotted-line {
+    color: rgba(180, 180, 180, 0.226);
+    width: 100%;
+    border: 1px dotted;
+    letter-spacing: 5px;
+}
+
+.date-legend {
+    display: flex;
+    align-items: center;
+}
+
+.date-legend-text {
+    color: rgba(180, 180, 180, 0.626);
+    font-weight: 700;
+    padding: 5px;
+    margin: 0px 5px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    width: 509px;
+}
+
+
+.button-archive-calls {
+    display: flex;
+    cursor: pointer;
+}
+
+.button-archive-calls-icon {
+    width: 30px;
+}
+
+.button-archive-calls-text {
+    font-weight: 700;
+}
+
+.call-log-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

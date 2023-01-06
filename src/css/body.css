@@ -16,5 +16,6 @@ body {
 
 
 .body-conatiner {
-  height: calc(666px - 100px);
+  background: #f6f6f6cb;
+  height: calc(666px - 110px);
 }
