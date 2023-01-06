@@ -13,3 +13,8 @@ body {
   color: #333333;
   line-height: 1;
 }
+
+
+.body-conatiner {
+  height: calc(666px - 100px);
+}
