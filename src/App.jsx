@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RouterProvider } from "react-router-dom";
+import { RouterProvider } from 'react-router-dom';
 import { router } from './RouterProvider';
 import AppContextProvider from './Provider';
 
 const App = () => {
   return (
-    <div className='container'>
+    <div className="container">
       <AppContextProvider>
         <RouterProvider router={router} />
       </AppContextProvider>
@@ -14,6 +14,6 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
 
 export default App;

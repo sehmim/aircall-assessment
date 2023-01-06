@@ -8,12 +8,12 @@ const useFetchData = (url) => {
     const fetchData = async () => {
       const { data } = await axios.get(url);
       setFetchedData(data);
-    }
+    };
 
     fetchData();
-  }, [url])
+  }, [url]);
 
   return fetchedData;
-}
+};
 
 export default useFetchData;
