@@ -12,7 +12,7 @@
     "trailingComma": "es5"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --mode development --open --openssl-legacy-provider",
     "build": "webpack --mode production",
     "format": "prettier --write 'src/**/*.{js,jsx}'"
   },
